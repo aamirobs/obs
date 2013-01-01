@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	behavior: url("/static/frontend/default/javascript/csshover.htc");
+}
+
+* html .none {
+	display: block;
+}
+
+div#breadcrumbs {
+	margin: 0 0 1em 0;
+	_margin: 0 0 3em 0;
+}
+
+* html div#main ul li {
+	margin: 0 0 0 2em;
+	padding: 0;
+	list-style-image: url("../images/ielist.gif");
+	background: none;
+}
